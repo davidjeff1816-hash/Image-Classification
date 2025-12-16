@@ -14,6 +14,7 @@ st.title("👤 Team Face Recognition")
 # Download TFLite model
 # -------------------------
 MODEL_PATH = "face_model.tflite"
+
 MODEL_URL = "https://drive.google.com/uc?id=1Ce-wB10lyAIEQ5Ht-oDIQEdLEEeBvPJv"
 
 if not os.path.exists(MODEL_PATH):
